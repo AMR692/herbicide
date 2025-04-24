@@ -1,12 +1,12 @@
 {
-    "author": "Andrei Petcu",
+    "author": "Andrew Martin Ross",
     "background": {
         "scripts": [
             "background.js"
         ]
     },
-    "description": "A WebExtension that redirects Deadspin.com links to the Wayback Machine archive. Icon is https://www.flaticon.com/free-icon/wikipedia_326943",
-    "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
+    "description": "A WebExtension that redirects Deadspin.com links to the Wayback Machine archive.",
+    "homepage_url": "https://github.com/AMR692/herbicide",
     "manifest_version": 2,
     "name": "Deadspin to Wayback Machine",
     "permissions": [
@@ -20,5 +20,5 @@
             "id": "deadspin-to-wayback@example.com"
         }
     },
-    "version": "1.1.2"
+    "version": "1.0a1"
 }
