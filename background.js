@@ -2,7 +2,7 @@ function redirectToWayback(requestDetails) {
 	const url = new URL(requestDetails.url);
 	const host = url.host;
 	if (host.includes("deadspin.com") && !host.includes("archive.org")) {
-		const waybackUrl = "https://web.archive.org/web/20051013055453/" + url.href;
+		const waybackUrl = "https://web.archive.org/web/20050925000000/" + url.href;
 		return {
 			redirectUrl: waybackUrl
 		};
