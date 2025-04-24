@@ -15,6 +15,11 @@
         "webRequest",
         "webRequestBlocking"
     ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "deadspin-to-wayback@example.com"
+        }
+    },
     "icons": {
         "16": "icon-16.png",
         "19": "icon-19.png",
