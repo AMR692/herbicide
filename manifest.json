@@ -8,7 +8,7 @@
     "description": "A WebExtension that redirects Deadspin.com links to the Wayback Machine archive.",
     "homepage_url": "https://github.com/AMR692/herbicide",
     "manifest_version": 2,
-    "name": "Deadspin to Wayback Machine",
+    "name": "Herbicide",
     "permissions": [
         "*://*.deadspin.com/*",
         "*://web.archive.org/*",
@@ -17,8 +17,8 @@
     ],
     "browser_specific_settings": {
         "gecko": {
-            "id": "deadspin-to-wayback@example.com"
+            "id": "herbicide@example.com"
         }
     },
-    "version": "1.0a1"
+    "version": "1.0.0"
 }
