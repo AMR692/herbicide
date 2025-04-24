@@ -5,16 +5,13 @@
             "background.js"
         ]
     },
-    "content_scripts": [{
-        "matches": ["*://*.wikipedia.org/*"],
-        "js": ["content.js"]
-    }],
-    "description": "A WebExtension that redirects to mobile Wikipedia since it is faster and prettier. Icon is https://www.flaticon.com/free-icon/wikipedia_326943",
+    "description": "A WebExtension that redirects Deadspin.com links to the Wayback Machine archive. Icon is https://www.flaticon.com/free-icon/wikipedia_326943",
     "homepage_url": "https://github.com/andreicristianpetcu/mobile_wikipedia",
     "manifest_version": 2,
-    "name": "Mobile Wikipedia (WebExtension)",
+    "name": "Deadspin to Wayback Machine",
     "permissions": [
-        "*://*.wikipedia.org/*",
+        "*://*.deadspin.com/*",
+        "*://web.archive.org/*",
         "webRequest",
         "webRequestBlocking"
     ],
